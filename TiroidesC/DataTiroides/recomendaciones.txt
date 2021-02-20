@@ -1,0 +1,73 @@
+Oscar Bedoya
+	
+Adjuntos4 ene 2021 12:11
+	
+para mí
+Hola Olga,
+
+Adjunto el conjunto de datos que me envió el doctor Jared. 
+Abajo hay algunas indicaciones que él dejó. 
+Podemos trabajar con la hoja de cálculo que se llama "Dataset con todos los datos".
+Se quiere predecir la columna que se llama "HALLAZGOS EN LA CIRUGÍA/Output", tiene valor 1 si el hallazgo es Benigno y 2 si es Maligno. 
+Deberíamos empezar a experimentar con estos datos y redes neuronales. 
+Luego hacemos la experimentación con las otras técnicas. 
+Con respecto al anteproyecto se tendría que modificar lo relacionado a la enfermedad 
+y el estado del arte ajustarlo para el tema de tiroides. 
+Cuando tengas avances del modelo con redes neuronales me dices, o si necesitas que te explique algo del código que te envié también. Quedo atento.
+
+
+Respecto a la base de datos de predicción de cancer de tiroides según hallazgos clínicos y ecográficos 
+-- Te envió dos dataset: 
+a) uno sin variables antropométricas (principalmente)  y de laboratorio:
+ esta grupo tiene la ventaja  de que cada paciente tiene las variables completas , pero se pierden muchos casos (pacientes)
+b)  Uno con todas los pacientes, pero que no tienen todas las variables registradas, 
+lo cual creo podría servir para experimentar el peso de cada variable vs el total de casos incluidos, 
+en caso de que se quiera hacer el mejor modelo de predicción posible.  
+(Ejemplo: en los estudios de estadísticas tradicional el OR del peso corporal no supera el 1,4  para predecir cancer de tiroides,
+ pero vale la pena ver que peso tiene con técnicas de inteligencia artificial = "análisis de componentes principales".  
+ Recordemos por ejemplo que la idea es comparar contra la estadística tradicional, 
+ y el grupo de epidemiológos y estadísticos que trabajarán el proyecto utiliza el dataset de todos los pacientes 
+ (sin todas las variables)  para ver como crear el mejor modelo.
+-- En todos los dataset las variables a trabajar están en azul, y las variables a medir estas en color naranja. 
+ En el grupo de todos los pacientes (sin todas las variables) aparece el IMC en Verde, 
+ lo cual es indicativo de que es una variable que esta ya implícita en el Peso dividido en la altura al cuadrado.  
+
+
+
+
+***********************************************************
+
+Oscar Bedoya
+	
+Adjuntosmar, 5 ene 15:10
+	
+para mí
+Hola Olga,
+
+El doctor Jared me envía un anteproyecto que se presentó en Imbanaco para el cáncer de tiroides 
+y unos artículos relacionados que pueden servir para tu anteproyecto.
+
+Saludos.
+
+---------- Forwarded message ---------
+De: Jared Agudelo <jared.agudelo1@gmail.com>
+Date: mar, 5 ene 2021 a las 15:01
+Subject: Re: Sobre trabajos en proceso
+To: Oscar Bedoya <oscar.bedoya@correounivalle.edu.co>
+
+
+Te envió  el anteproyecto que se paso al comité de imbanaco, creo que puede ayudar,
+ solo quedaría añadir información respecto machine learning.  Si me dan tiempito yo puedo adicionarla.
+
+Te envío ademas documentos sobre trabajos con cancer de tiroides y machine learning, los mejores que logre discriminar  
+En general hay mucha bibliografía pero de mejora de la capacidad discriminativa imagenologicamente de la ultrasonografía. 
+La publicación mas parecida a la del trabajo aquí propuesto seria esta: 
+'Comparison between linear and nonlinear machine-learning algorithms for the classification of thyroid nodules'
+Pero en general no hay estudios parecidos al que se propone
+
+
+3188468892
+
+lo sentimos el segundo spiker tivo prblemas de ultimo momento muchas gracias 
+disculpas 
+paula 
